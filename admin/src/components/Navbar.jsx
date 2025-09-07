@@ -63,6 +63,7 @@ const Navbar = () => {
   onClick={() => window.location.href = 'https://prescripto-frontend-l85r.onrender.com'}
   className="bg-primary text-white text-sm px-10 py-2 rounded-full ml-4"
 >
+    
   User Page
 </button>
     </div>
@@ -72,7 +73,3 @@ const Navbar = () => {
 
 export default Navbar
 
-  )
-}
-
-export default Navbar
