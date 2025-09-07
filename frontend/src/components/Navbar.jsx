@@ -13,7 +13,7 @@ const Navbar = () => {
     setUserData(null);
     localStorage.removeItem('token');
     navigate('/'); // ✅ redirect to home after logout
-    //const goToAdminLogin = () => {
+  const goToAdminLogin = () => {
   // Clear tokens
   if (aToken) {
     setAToken('')
