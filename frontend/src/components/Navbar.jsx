@@ -100,7 +100,9 @@ const Navbar = () => {
             Create Account
           </button>
         )}
-
+    <button type="button" onclick="window.location.href='https://prescripto-admin-lv3i.onrender.com'">
+    Admin Page
+  </button>
         {/* Mobile menu button */}
         <img
           onClick={() => setShowMenu(true)}
