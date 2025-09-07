@@ -13,21 +13,7 @@ const Navbar = () => {
     setUserData(null);
     localStorage.removeItem('token');
     navigate('/'); // ✅ redirect to home after logout
-  const goToAdminLogin = () => {
-  // Clear tokens
-  if (aToken) {
-    setAToken('')
-    localStorage.removeItem('aToken')
-  }
-  if (dToken) {
-    setDToken('')
-    localStorage.removeItem('dToken')
-  }
-
-  // Redirect to admin login page
-  window.location.href = 'https://prescripto-admin-lv3i.onrender.com'
-}
-  
+   
 
 
   // optional: ensure profile data is fetched when token exists
@@ -115,18 +101,13 @@ const Navbar = () => {
             Create Account
           </button>
         )}
-{/*   <button 
+  <button 
   onClick={() => window.location.href = 'https://prescripto-admin-lv3i.onrender.com'} 
   className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block"
 >
   Admin Page
-</button> */}
-        <button
-  onClick={goToAdminLogin}
-  className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block"
->
-  Admin Page
 </button>
+       
 
 
 
