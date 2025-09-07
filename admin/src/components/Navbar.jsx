@@ -28,6 +28,12 @@ const Navbar = () => {
         <p className='border px-2.5 py-0.5 rounded-full border-gray-5000 text-gray-600'>{aToken ? 'Admin':'Doctor'}</p>
       </div>
       <button onClick={logout} className='bg-primary text-white text-sm px-10 py-2 rounded-full'>Log Out</button>
+      <button
+      onClick={() => window.location.href = 'https://prescripto-frontend-l85r.onrender.com'}
+       className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block"
+          >
+      User Page
+    </button>
     </div>
 
   )
