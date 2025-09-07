@@ -104,7 +104,7 @@ const Navbar = () => {
       onClick={() => window.location.href = 'https://prescripto-admin-lv3i.onrender.com'}
        className="bg-primary text-white px-8 py-3 rounded-full font-light hidden md:block"
           >
-      Admin Page
+      Admin / Doctor
     </button>
         {/* Mobile menu button */}
         <img
