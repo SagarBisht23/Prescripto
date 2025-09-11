@@ -12,7 +12,7 @@ const Contact = () => {
         <div className='flex flex-col justify-center items-start gap-6'>
           <p className='font-semibol text-lg text-gray-600'>Our Office</p>
           <p className='text-gray-500'>Shivalik city<br/> Kharar Mohali ,140301 </p>
-          <p className='text-gray-500'>Tel : +91 99999-88888 <br />Email:sagarb9919@gmail.com</p>
+          <p className='text-gray-500'>Tel : +91 99999-88888 <br />Email:xyz9@gmail.com</p>
           <p className='font-semibold text-lg text-gray-600'>Careers at Prescripto</p>
           <p className='text-gray-500'>Learn more about our teams and job openings.</p>
           <button className='border border-black px-8 py-4 btext-sm hover:bg-black hover:text-white transition-all duration-500'>Explore Jobs</button>
